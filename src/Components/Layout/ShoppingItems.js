@@ -11,8 +11,8 @@ const Dummy_Items = [
 
 const ShoppingItems = (props) => {
   return (
-    <div className={styles.WrapperItemsCard}>
-      <ul>
+    
+      <ul className={styles.WrapperItemsCard}>
         {Dummy_Items.map((item) => {
           return (
             <ShoppingItemList
@@ -27,7 +27,7 @@ const ShoppingItems = (props) => {
           );
         })}
       </ul>
-    </div>
+
   );
 };
 

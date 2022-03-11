@@ -1,12 +1,12 @@
 .Cart {
   display: flex;
   border: 1px solid rgb(192, 175, 175);
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 12px;
   align-items: center;
 }
 .CartItem {
-  margin: 0 1rem;
+  margin: 0rem 0.5rem;
   /* border: 1px solid black; */
   padding: 0.2rem 0.8rem;
   text-align: center;

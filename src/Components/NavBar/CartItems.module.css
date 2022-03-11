@@ -1,43 +1,8 @@
-.ItemsCard {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgb(223, 221, 221);
-  justify-content: space-between;
-  margin: 1%;
-  padding: 1%;
-}
-
 .WrapperItemsCard {
   margin: 5% 25%;
-  border-radius: 0px 40px;
-  box-shadow: 2px 4px 16px 1px;
+  border-radius: 24px;
   padding: 1%;
-  background-color: rgb(43, 42, 42);
-}
-
-.WrapperItemsCard ul {
+  /* box-shadow: 2px 4px 16px 1px; */
+  background-color: #3b269b;
   list-style-type: none;
-}
-.buttonCard {
-  justify-content: space-evenly;
-  display: flex;
-}
-
-.buttonCard button {
-  align-items: center;
-  outline-style: none;
-  width: 3rem;
-  height: 1.5rem;
-  margin: 0 0.5rem;
-  border-radius: 16px;
-  border: none;
-  font-size: 1rem;
-  padding: 0 1rem;
-  font-weight: bolder;
-  color: white;
-  background-color: rgb(150, 148, 151);
-}
-
-.buttonCard button:hover {
-  background-color: rgb(64, 64, 65);
 }

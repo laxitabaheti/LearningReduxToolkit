@@ -1,0 +1,30 @@
+.ItemsCard {
+  display: flex;
+  align-items: center;
+  margin: 0 2%;
+  padding: 2% 1%;
+  justify-content: space-between;
+  border-bottom: 0.2px solid rgb(170, 170, 170);
+}
+.buttonCard {
+  display: flex;
+  align-items: center;
+}
+
+.buttonCard button {
+  outline-style: none;
+  width: 6.5rem;
+  height: 1.8rem;
+  margin: 0rem 1rem;
+  border-radius: 16px;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0 0.4rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(70, 27, 92);
+}
+
+.buttonCard button:hover {
+  background-color: rgb(25, 25, 65);
+}

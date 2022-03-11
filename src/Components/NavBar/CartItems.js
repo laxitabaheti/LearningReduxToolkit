@@ -6,25 +6,23 @@ const CartItems = (props) => {
   const cartItems = useSelector((state) => state.Cart.items);
 
   return (
-    <div className={styles.WrapperItemsCard}>
-      <ul>
-        {cartItems.map((item) => {
-          return (
-            <CartItemList
-              key={item.id}
-              item={{
-                id: item.id,
-                name: item.name,
-                description: item.description,
-                price: item.price,
-                totalprice: item.totalprice,
-                quantity: item.quantity
-              }}
-            />
-          );
-        })}
-      </ul>
-    </div>
+    <ul className={styles.WrapperItemsCard}>
+      {cartItems.map((item) => {
+        return (
+          <CartItemList
+            key={item.id}
+            item={{
+              id: item.id,
+              name: item.name,
+              description: item.description,
+              price: item.price,
+              totalprice: item.totalprice,
+              quantity: item.quantity
+            }}
+          />
+        );
+      })}
+    </ul>
   );
 };
 export default CartItems;

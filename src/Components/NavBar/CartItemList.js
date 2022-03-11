@@ -1,4 +1,4 @@
-import styles from "./CartItems.module.css";
+import styles from "./CartItemList.module.css";
 import { useDispatch } from "react-redux";
 import { CartActions } from "../../store/CartSlice";
 const CartItemList = (props) => {
@@ -19,7 +19,7 @@ const CartItemList = (props) => {
     dispatch(CartActions.RemoveFromCart({ id }));
   };
   return (
-    <li>
+    <li className={styles.list}>
       <div className={styles.ItemsCard}>
         <div className={styles.name}>{name}</div>
         <div className={styles.description}>{description}</div>
